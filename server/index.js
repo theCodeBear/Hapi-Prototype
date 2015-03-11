@@ -16,3 +16,5 @@ server.register(plugins, function(err) {
     console.log('info', server.info.uri);
   });
 });
+
+module.exports = server;
